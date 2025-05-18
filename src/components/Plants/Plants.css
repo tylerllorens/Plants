@@ -1,0 +1,38 @@
+.plant-card {
+  border: 1px solid #eee;
+  padding: 1rem;
+  display: grid;
+  gap: 1ch;
+}
+.plant-card figure {
+  font-size: 5rem;
+  text-align: center;
+}
+button {
+  padding: 0.25rem;
+}
+.plants-grid ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20ch, 1fr));
+  gap: 1ch;
+}
+.plants-grid h2 {
+  margin-bottom: 0.5rem;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 30ch;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.plant-button {
+  background-color: #e7e7e7;
+  color: black;
+  border: 1px solid #524f4f;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
